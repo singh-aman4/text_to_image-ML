@@ -1,1 +1,1 @@
-# credit_fraud_detection
+# text_to_image ML model
