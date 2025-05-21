@@ -9,6 +9,7 @@ The model works by using diffusion-based techniques to gradually turn noise into
 <h2>Initial configuration</h2>
 To begin, a dedicated folder named text_to_image was created to organize the project files. A conda virtual environment named text2img was then created and activated to isolate dependencies from the rest of the system. This was done using the following commands in the terminal:
 
+
 ```
 conda create -n text2img python=3.9
 conda activate text2img
@@ -37,7 +38,8 @@ def generate_image(prompt):
     plt.axis("off")
     plt.show()
 ```
-
+<h2>Image generation</h2>
+<img width="1020" alt="Screenshot 2025-05-22 at 00 08 02" src="https://github.com/user-attachments/assets/53e94d26-c374-45d0-a43a-88817f3f5835" />
 Throughout the development, the focus was on simplicity, offline capability, and lightweight performance. All packages and models were kept minimal in size and locally installed to avoid dependency issues or network interruptions during runtime. The final application ran entirely inside the Jupyter Notebook environment and did not require setting up a web backend or FastAPI server.
 <br><br>
 <h2>Conclusion</h2>
